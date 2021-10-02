@@ -1,0 +1,71 @@
+/* STYLES FOR PAYMENT FORM */
+#p_form
+{
+  margin-left: 30px;
+}
+
+h2.payment_h2
+{
+  padding-left: 30px;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.label
+{
+  color: #000;
+  font-size: 14px;
+  padding: 0;
+}
+
+input#card_name,
+input#card_number,
+input#expiry_date,
+input.submit,
+input#cvv2:not(#card_type)
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+input#card_type
+{
+  width: 30px;
+}
+
+input#cvv2
+{
+  width: 80px;
+}
+
+input#expiry_date
+{
+  width: 120px;
+}
+
+input[type="radio"]
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* END OF PAYMENT FORM STYLES */
+
+/* SHIPPING FORM STYLES */
+
+input#first_name,
+input#last_name,
+input#email,
+input#phone,
+input#street,
+input#city,
+input#province,
+input#country,
+input#postal_code
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+/* END SHIPPING FORM STYLES */

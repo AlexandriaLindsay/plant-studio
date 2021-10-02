@@ -1,0 +1,180 @@
+@media (min-width:768px) and (max-width:1024px) { /*ipad*/
+#nav{
+        display:none;
+    }
+    #slider{
+    display:none;    
+    }
+    #utility_nav{
+        display:none;
+    }
+    .cart_link{
+        display:block;
+    }
+    .product{
+        width:40px;
+        height:auto;
+        margin-bottom: 30px;
+        margin-left:50px;
+        margin-right:50px;
+        transition:0s;
+        box-shadow:0 0 9px grey;
+        
+    }
+    .product img{
+        width:90%;
+        height:auto;
+    } 
+    .categories, .plants_title, #search_form, #custom-search-input, #select_box, #sort_header{
+        display:none;
+    }
+    .mobile_categories{
+        display:block;
+    }
+   #search-box {
+   position: relative;
+   width: 100%;
+   margin: 0;
+}
+
+    #mobile_sort_button{
+    position:fixed;
+    }
+    
+}
+@media (min-width:768px) and (max-width:979px) {
+ 
+ #nav{
+        display:none;
+    }
+    #slider{
+    display:none;    
+    }
+    #utility_nav{
+        display:none;
+    }
+    .cart_link{
+        display:block;
+    }
+    .product{
+        width:40px;
+        height:auto;
+        margin-bottom: 30px;
+        margin-left:50px;
+        margin-right:50px;
+        transition:0s;
+        box-shadow:0 0 9px grey;
+        
+    }
+    .product img{
+        width:90%;
+        height:auto;
+    } 
+    .categories, .plants_title, #search_form, #custom-search-input, #select_box, #sort_header{
+        display:none;
+    }
+    .mobile_categories{
+        display:block;
+    }
+   #search-box {
+   position: relative;
+   width: 100%;
+   margin: 0;
+}
+
+    #mobile_sort_button{
+    position:fixed;
+    }
+   
+    
+}
+
+@media (max-width:767px){
+
+   #nav{
+        display:none;
+    }
+    #slider{
+    display:none;    
+    }
+    #utility_nav{
+        display:none;
+    }
+    .cart_link{
+        display:block;
+    }
+    .product{
+        width:10px;
+        margin-bottom: 30px;
+        margin-left:30px;
+        margin-right:20px;
+        transition:0s;
+        box-shadow:0 0 9px grey;
+        
+    }
+    .product img{
+        width:90%;
+        height:auto;
+    } 
+    .categories, .plants_title, #search_form, #custom-search-input, #select_box, #sort_header{
+        display:none;
+    }
+    .mobile_categories{
+        display:block;
+    }
+   #search-box {
+   position: relative;
+   width: 100%;
+   margin: 0;
+   }
+   
+    
+}
+
+@media (max-width:480px){
+    #nav{
+        display:none;
+    }
+   
+    #utility_nav{
+        display:none;
+    }
+    .cart_link{
+        display:block;
+    }
+    .product{
+        width:90%;
+        height:auto;
+        margin-bottom: 30px;
+        margin-left:20px;
+        margin-right:0;
+        transition:0s;
+        box-shadow:0 0 9px grey;
+        
+    }
+    .product img{
+        width:90%;
+        height:auto;
+    } 
+    .categories, .plants_title, #search_form, #custom-search-input, #select_box, #sort_header{
+        display:none;
+    }
+    .mobile_categories{
+        
+        margin-left:25px;
+        margin-top:20px;
+    }
+   #search-box {
+   position: relative;
+   width: 100%;
+   margin: 0;
+   margin-left:5px;
+  }
+
+    #mobile_sort_button{
+    position:fixed;
+    }
+    
+
+
+}
